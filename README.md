@@ -17,7 +17,11 @@ Personal Neovim configuration built around **lazy.nvim** and the native LSP clie
 - **Terminal:** `toggleterm.nvim` with custom winbar tab navigation (active outside tmux)
 - **Multiplexer:** `vim-tmux-navigator` for seamless navigation between Neovim splits and tmux panes
 - **UI:** `lualine.nvim`, `alpha-nvim` (dashboard), `indent-blankline.nvim`, `todo-comments.nvim`, `which-key.nvim`
-- **Themes:** Catppuccin (Mocha, Macchiato, Latte, Frappe), Gruvbox, Rosé Pine, Tokyo Night — switchable at runtime with `themery.nvim`
+- **Themes:** Switchable at runtime with `themery.nvim` (`<leader>ut`):
+  - **Catppuccin:** Mocha, Macchiato, Frappe, Latte
+  - **Tokyo Night:** Night, Storm, Moon, Day
+  - **Rosé Pine:** Main, Moon, Dawn
+  - **Gruvbox:** Hard, Medium, Soft, Light
 - **Editing:** `nvim-autopairs`, `nvim-ts-autotag`, `nvim-surround`
 
 ## Structure
