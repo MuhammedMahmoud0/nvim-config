@@ -35,39 +35,6 @@ return {
 		},
 	},
 	{
-		"catppuccin/nvim",
-		name = "catppuccin",
-		priority = 1000,
-		opts = {
-			flavour = "macchiato",
-			auto_integrations = false,
-			term_colors = true,
-			transparent_background = false,
-		},
-	},
-	{
-		"catppuccin/nvim",
-		name = "catppuccin",
-		priority = 1000,
-		opts = {
-			flavour = "latte",
-			auto_integrations = false,
-			term_colors = true,
-			transparent_background = false,
-		},
-	},
-	{
-		"catppuccin/nvim",
-		name = "catppuccin",
-		priority = 1000,
-		opts = {
-			flavour = "frappe",
-			auto_integrations = false,
-			term_colors = true,
-			transparent_background = false,
-		},
-	},
-	{
 		"ellisonleao/gruvbox.nvim",
 		opts = {
 			contrast = "hard",
