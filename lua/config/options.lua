@@ -39,8 +39,8 @@ vim.opt.splitbelow = true
 vim.opt.undofile = true
 vim.opt.updatetime = 250
 vim.o.winborder = "rounded"
-vim.opt.fillchars:append({ eob = " " }) -- يخفي علامات ~ بعد نهاية الملف
-vim.opt.showmode = false -- lualine بتعرض الـ mode أصلًا
+vim.opt.fillchars:append({ eob = " " })
+vim.opt.showmode = false
 
 -- User Commands
 vim.api.nvim_create_user_command("LspInfo", "checkhealth vim.lsp", {})
