@@ -17,8 +17,11 @@ return {
 				"typescript",
 				"tsx",
 				"html",
-				"css, http",
+				"css",
+				"http",
 				"go",
+				"printf", -- format verbs inside Printf/Sprintf strings
+				"regex",  -- regex highlighting inside JS/TS strings (optional)
 			})
 			vim.api.nvim_create_autocmd("FileType", {
 				callback = function(args)

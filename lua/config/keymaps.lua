@@ -1,5 +1,5 @@
 -- Save all buffers
-vim.keymap.set("n", "<C-s>", "<cmd>wall<CR>", {
+vim.keymap.set({ "n", "i" }, "<C-s>", "<cmd>wall<CR>", {
 	desc = "Save all buffers",
 })
 
